@@ -1,0 +1,43 @@
+body {
+    font-weight: 400;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.back {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    min-height: 500px;
+    padding-top: 10px;
+}
+
+.back .image {
+    margin: 10px auto;
+    width: 90%;
+}
+
+.back .image img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.back .heading {
+    font-size: 25px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    margin: 25px auto;
+    width: 80%;
+}
+
+.back .details p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    width: 80%;
+    margin: 15px auto;
+}
